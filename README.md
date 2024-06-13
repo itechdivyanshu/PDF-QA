@@ -60,24 +60,28 @@ npm start
 
 FastAPI provides automatic interactive API documentation available at:
 
+```
 Swagger UI: http://127.0.0.1:8000/docs
 Redoc: http://127.0.0.1:8000/redoc
 You can use these interfaces to explore the available endpoints and test them.
+```
 
 ## Frontend Usage
 
-The React frontend will be running on http://localhost:3000. Once the server is running, you can open this URL in your web browser to access the application's user interface.
+The React frontend will be running on ```http://localhost:3000```. Once the server is running, you can open this URL in your web browser to access the application's user interface.
 
 ## Contributing
 
 If you'd like to contribute to this project, please follow these steps:
 
+```
 Fork the repository.
 Create a new branch (git checkout -b feature-branch).
 Make your changes.
 Commit your changes (git commit -m 'Add some feature').
 Push to the branch (git push origin feature-branch).
 Open a Pull Request.
+```
 
 ## License
 
