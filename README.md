@@ -79,7 +79,7 @@ Commit your changes (git commit -m 'Add some feature').
 Push to the branch (git push origin feature-branch).
 Open a Pull Request.
 
-##License
+## License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
 
