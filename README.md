@@ -24,35 +24,43 @@ PDF-QA is a project designed to facilitate easy interaction with PDF documents, 
   
 ## Setup
 
-### Installing Required Files For FastAPI
+#### `Clone the repository:`
 
-#### `For Windows:`
+```bash
+   git clone [https://github.com/itechdivyanshu/PDF-QA.git](https://github.com/itechdivyanshu/PDF-QA.git)
+   cd urine_strip_analysis
+```
 
-```lang-python
+#### `Create and activate a virtual environment:`
+
+```bash
+python -m venv env
+source env/bin/activate
+```
+
+#### `Install dependencies:`
+
+```bash
 pip install -r requirements.txt
 ```
-#### `For Linux/Mac:`
 
-```lang-python
-pip3 install -r requirements.txt
-```
 
-### Installing Required Files For Node/React
+### `Installing Required Files For Node/React`
 
-```javascript
+```bash
 cd ./ass-i/
 npm install
 ```
-### Run server:
+## Running the Application:
 
 #### `For FastAPI:`
 
-```lang-python
+```bash
 fastapi dev main.py
 ```
-#### `For React:
+#### `For React:`
 
-```lang-python
+```bash
 cd ./ass-i/
 npm start
 ```
@@ -68,7 +76,7 @@ You can use these interfaces to explore the available endpoints and test them.
 
 ## Frontend Usage
 
-The React frontend will be running on ```http://localhost:3000```. Once the server is running, you can open this URL in your web browser to access the application's user interface.
+The React frontend will be running on `http://localhost:3000`. Once the server is running, you can open this URL in your web browser to access the application's user interface.
 
 ## Contributing
 
